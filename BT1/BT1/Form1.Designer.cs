@@ -93,6 +93,7 @@
             this.BTCONG.TabIndex = 2;
             this.BTCONG.Text = "+";
             this.BTCONG.UseVisualStyleBackColor = true;
+            this.BTCONG.Click += new System.EventHandler(this.BTCONG_Click);
             // 
             // Form1
             // 
