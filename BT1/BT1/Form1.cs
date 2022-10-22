@@ -19,10 +19,13 @@ namespace BT1
 
         private void BTCONG_Click(object sender, EventArgs e)
         {
-            double soA = double.Parse(TXTA.Text);
-            double sob = double.Parse(TXTB.Text);
-            double c = soA + sob;
-            txtKQ.Text = c.ToString();
+            if (TXTA.Text != String.Empty)
+            {
+                double soA = double.Parse(TXTA.Text);
+                double sob = double.Parse(TXTB.Text);
+                double c = soA + sob;
+                txtKQ.Text = c.ToString();
+            }
         }
     }
 }
