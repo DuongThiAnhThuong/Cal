@@ -24,5 +24,13 @@ namespace BT1
             double c = soA + sob;
             txtKQ.Text = c.ToString();
         }
+
+        private void btTru_Click(object sender, EventArgs e)
+        {
+            double soA = double.Parse(TXTA.Text);
+            double sob = double.Parse(TXTB.Text);
+            double c = soA - sob;
+            txtKQ.Text = c.ToString();
+        }
     }
 }
